@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/Proxima-Nova/ProximaNovaRegular/ProximaNovaRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../font/Proxima-Nova/ProximaNovaBold/ProximaNova-SemiboldIt.eot');
+    src: url('../font/Proxima-Nova/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../font/Proxima-Nova/ProximaNova-SemiboldIt.woff2') format('woff2'),
+        url('../font/Proxima-Nova/ProximaNova-SemiboldIt.woff') format('woff'),
+        url('../font/Proxima-Nova/ProximaNova-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: El Messiri;
+    src: url(../font/El-Messiri/ElMessiri.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrap {
+    width: 1920px;
+    height: 5155px;
+    background-color: #162831;
+    margin: 0 auto;
+}
+.container {
+    width: 1298px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+ul.nav-list{
+display: flex;
+}
+ul.nav-list li{
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+ul.nav-list li a{
+    text-decoration: none;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    margin-right: 50px;
+    color: #fff;
+ }
+
+
+ a.nav-button {
+    width: 155px;
+    height: 36px;
+    font-family: Proxima Nova Semibold;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    background: #018ABE;
+    text-decoration:none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+ }
