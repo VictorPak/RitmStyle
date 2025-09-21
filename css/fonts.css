@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/Proxima-Nova/ProximaNovaRegular/ProximaNovaRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../font/Proxima-Nova/ProximaNovaBold/ProximaNova-SemiboldIt.eot');
+    src: url('../font/Proxima-Nova/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../font/Proxima-Nova/ProximaNova-SemiboldIt.woff2') format('woff2'),
+        url('../font/Proxima-Nova/ProximaNova-SemiboldIt.woff') format('woff'),
+        url('../font/Proxima-Nova/ProximaNova-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: El Messiri;
+    src: url(../font/El-Messiri/ElMessiri.ttf);
+}
