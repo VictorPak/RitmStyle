@@ -147,10 +147,7 @@ ul.nav-list li a{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 24px;
-    line-height: 140%;
-
-    
-    
+    line-height: 140%; 
  }
  .sessions-standart {
     background-image:url(/img/sessions-standart.jpg);
@@ -161,14 +158,13 @@ ul.nav-list li a{
     border-radius: 11px;
     display: flex;
     align-items:end;
-    
  }
   .sessions-standart h3, .sessions-pear h3{
     padding-left: 50px;
     padding-bottom: 50px;
 }
 
-  .sessions-pear {
+.sessions-pear {
     background-image:url(/img/sessions-pear.jpg);
     grid-column: 2/3;
     grid-row: 1/2;
@@ -206,4 +202,68 @@ ul.nav-list li a{
  }
  .sessions-pregnant-women h3, .sessions-photo-shoot h3 {
     width: 237px;
+}
+/* reviews */
+.reviews {
+    width: 1736px;
+    height: 585px;
+    margin: 0 auto;
+}
+.reviews-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+ h2.reviews-title::before {
+    content: url(/img/Rectangle-6.svg);
+    width: 28px;
+    height: 14px;
+    margin-right: 45px;
+ }
+  h2.reviews-title::after {
+    content: url(/img/Rectangle-7.svg);
+    width: 28px;
+    height: 14px;
+    margin-left: 45px;
+ }
+ .reviews_list {
+      display:flex;
+      margin-top: 100px;
+
+ }
+ .reviews_item {
+    width: 500px;
+    height: 276px;
+  
+}
+ .reviews_item.visible {
+    transform: scale(0.8); opacity: 0.4;
+    background: #018abe;
+    border-radius: 10px;
+ }
+ .reviews_item.active {
+    transform: scale(1); opacity: 1;
+    border-radius: 10px;
+    width: 636px;
+    height: 350px;
+    background: #018abe;
+ }
+.reviews_item h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 40px 45px 0 45px;
+
+}
+.reviews_item p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 140%;
+    margin: 15px 45px 0 45px;
 }
