@@ -238,7 +238,6 @@ ul.nav-list li a{
  .reviews_item {
     width: 500px;
     height: 276px;
-  
 }
  .reviews_item.visible {
     background: #018abe;
@@ -264,7 +263,6 @@ ul.nav-list li a{
     font-size: 16px;
     line-height: 140%;
     margin: 40px 45px 0 45px;
-
 }
 .reviews_item p {
     font-family: var(--font-family);
@@ -285,7 +283,6 @@ ul.nav-list li a{
     opacity: 0.4;
     margin-right: 20px;
     border-radius: 3px;
-
 }
 .square:last-child {
     margin-right: 0;
@@ -294,3 +291,60 @@ ul.nav-list li a{
     background-color:#fff;
      opacity: 1;
 } 
+/* about */
+
+.about {
+    margin-top: 150px;
+}
+.about h2.about-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+
+}
+
+ h2.about-title::before {
+    content: url(/img/Rectangle-6.svg);
+    width: 28px;
+    height: 14px;
+    margin-right: 45px;
+ }
+  h2.about-title::after {
+    content: url(/img/Rectangle-7.svg);
+    width: 28px;
+    height: 14px;
+    margin-left: 45px;
+ }
+ .massage, .hydrotherapy  {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+.massage-text, .hydrotherapy-text {
+    width: 466px;
+    height: 234px;
+} 
+
+ .massage h3, .hydrotherapy-text h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+ }
+ .massage-img {
+    border-radius:11px;
+ }
+ .massage-text p , .hydrotherapy-text p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+    margin-top: 30px;
+ }
+
+ .hydrotherapy-img {
+    border-radius: 11px;
+ }
