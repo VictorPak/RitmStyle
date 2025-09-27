@@ -302,7 +302,6 @@ ul.nav-list li a{
     font-size: 42px;
     line-height: 140%;
     text-align: center;
-
 }
 
  h2.about-title::before {
@@ -348,3 +347,72 @@ ul.nav-list li a{
  .hydrotherapy-img {
     border-radius: 11px;
  }
+
+ /* price */
+ .price {
+    margin-top: 150px ;
+ }
+
+ .price h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+ }
+
+ .price h2::before {
+    content: url(/img/Rectangle-6.svg);
+    width: 28px;
+    height: 14px;
+    margin-right: 45px;
+ }
+ .price h2::after {
+    content: url(/img/Rectangle-7.svg);
+    width: 28px;
+    height: 14px;
+    margin-left: 45px;
+ }
+
+ .price-container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+ }
+ .price-container {
+    margin-top: 100px;
+ }
+ .price_table {
+    display: flex;
+    justify-content: space-between;
+    width: 416px;
+    height: 250px;
+
+ }
+
+ .price_list li {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    margin-top: 30px;
+ }
+
+.price_list_title li::before {
+    content: url(/img/Rectangle-6.svg);
+    width: 28px;
+    height: 14px;
+    margin-right: 45px;
+ }
+ .price_img img {
+    border-radius: 11px;
+ }
+
+.price_img p {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 30px;
+}
