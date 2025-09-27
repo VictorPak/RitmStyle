@@ -231,9 +231,9 @@ ul.nav-list li a{
     margin-left: 45px;
  }
  .reviews_list {
-      display:flex;
-      margin-top: 100px;
-
+    display:flex;
+    margin-top: 100px;
+    gap: 50px;
  }
  .reviews_item {
     width: 500px;
@@ -241,17 +241,23 @@ ul.nav-list li a{
   
 }
  .reviews_item.visible {
-    transform: scale(0.8); opacity: 0.4;
     background: #018abe;
     border-radius: 10px;
+    width: 500px;
+    height: 276px;
+    align-self: center;
+    opacity: 0.5;
  }
  .reviews_item.active {
-    transform: scale(1); opacity: 1;
     border-radius: 10px;
     width: 636px;
     height: 350px;
     background: #018abe;
+    width: 636px;
+    height: 350px;
+    align-self: start;
  }
+
 .reviews_item h3 {
     font-family: var(--font-family);
     font-weight: 700;
@@ -267,3 +273,24 @@ ul.nav-list li a{
     line-height: 140%;
     margin: 15px 45px 0 45px;
 }
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.square {
+    width: 16px;
+    height: 16px;
+    background-color:#fff;
+    opacity: 0.4;
+    margin-right: 20px;
+    border-radius: 3px;
+
+}
+.square:last-child {
+    margin-right: 0;
+}
+.square.active-square {
+    background-color:#fff;
+     opacity: 1;
+} 
